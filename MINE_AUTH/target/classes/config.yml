@@ -1,0 +1,17 @@
+mysql:
+  host: 192.168.1.98
+  port: 3306
+  database: MineAuth_DB
+  username: MineAuth_SQL
+  password: MineAuth_8396
+
+security:
+  maxAttempts: 5
+  blockMillis: 120000 # 2 минуты в миллисекундах
+  kickDelaySeconds: 60 # через сколько секунд без авторизации кикать
+
+# другие настройки...
+telegram:
+  mode: generate_on_bot
+  bot_token: "8282907089:AAHMOhF19ZCUnjD8_yFSnWXjybyr18y9ZL0"
+  bot_username: "MineAuth1_bot"

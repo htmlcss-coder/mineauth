@@ -1,0 +1,15 @@
+name: MineAuth
+main: com.mineauth.Main
+version: 1.0.0
+api-version: 1.21
+author: AliDzhumabekov
+commands:
+  register:
+    description: Register new account
+    usage: /register <пароль>
+  login:
+    description: Login to account
+    usage: /login <пароль>
+  logout:
+    description: Logout
+    usage: /logout
