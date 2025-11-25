@@ -13,5 +13,5 @@ security:
 # другие настройки...
 telegram:
   mode: generate_on_bot
-  bot_token: "8282907089:AAHMOhF19ZCUnjD8_yFSnWXjybyr18y9ZL0"
-  bot_username: "MineAuth1_bot"
+  bot_token: "YOUR_BOT_TOKEN_HERE"
+  bot_username: "YOUR_BOT_NAME_HERE"
