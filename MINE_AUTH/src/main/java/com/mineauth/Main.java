@@ -18,11 +18,11 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
 
-        String host = getConfig().getString("mysql.host", "192.168.1.98");
+        String host = getConfig().getString("mysql.host", "Your_MySQL_Host_Here");
         String port = getConfig().getString("mysql.port", "3306");
-        String database = getConfig().getString("mysql.database", "MineAuth_DB");
-        String username = getConfig().getString("mysql.username", "MineAuth_SQL");
-        String password = getConfig().getString("mysql.password", "MineAuth_8396");
+        String database = getConfig().getString("mysql.database", "Your_Database_Here");
+        String username = getConfig().getString("mysql.username", "Your_MySQL_User_Here");
+        String password = getConfig().getString("mysql.password", "Your_MySQL_Password_Here");
 
         int maxAttempts = getConfig().getInt("security.maxAttempts", 5);
         long blockMillis = getConfig().getLong("security.blockMillis", 2 * 60 * 1000); // 2 min default
