@@ -1,9 +1,9 @@
 mysql:
-  host: 192.168.1.98
+  host: localhost
   port: 3306
-  database: MineAuth_DB
-  username: MineAuth_SQL
-  password: MineAuth_8396
+  database: Your_Auth_Database_Here
+  username: Your_MySQL_User_Here
+  password: Your_MySQL_Password_Here
 
 security:
   maxAttempts: 5
