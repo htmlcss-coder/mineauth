@@ -7,11 +7,11 @@ public class Database {
     private Connection connection;
 
     public void connect(FileConfiguration config) {
-        String host = config.getString("mysql.host", "localhost");
+        String host = config.getString("mysql.host", "Your_MySQL_Host_Here");
         String port = config.getString("mysql.port", "3306");
-        String database = config.getString("mysql.database", "MineAuth_DB");
-        String user = config.getString("mysql.user", "MineAuth_SQL");
-        String password = config.getString("mysql.password", "MineAuth_8396");
+        String database = config.getString("mysql.database", "Your_Database_Here");
+        String user = config.getString("mysql.user", "Your_MySQL_User_Here");
+        String password = config.getString("mysql.password", "Your_MySQL_Password_Here");
 
         try {
             if (connection != null && !connection.isClosed()) return;
